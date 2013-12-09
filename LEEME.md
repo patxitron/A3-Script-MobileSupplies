@@ -7,7 +7,7 @@ script =BTC= Revive en el que este está basado.
 Esta versión también incluye códifo del script namedisplay para Arma 2
 de Marker y Melbo.
 
-PARA QUÉ SIRVE:
+Para qué sirve:
 ---------------
 Con este script puedes hacer que uno o más vehículos actúen como
 centro de reparación, rearamado y repostado para otros vehículos
@@ -20,13 +20,13 @@ A lo largo de este documento, me referiré a estos vehículos como
 vehículos de suminstros.
 
 
-CÓMO INCLUIRLO EN TU MISIÓN:
+Cómo incluirlo en tu misión:
 ----------------------------
 Este script no requiere mods ni addons. Símplemente copia la carpeta
 Patxitron_MobileRepair en nu misión y añade la siguiente línea en
 el fichero init.sqf:
 
-call compile preprocessFile "Patxitron_MobileRepair\mobile_repair_init.sqf";
+	call compile preprocessFile "Patxitron_MobileRepair\mobile_repair_init.sqf";
 
 Después, en el editor de misiones, pon uno o más vehículos que quieras
 que actúen como vehículos de suminstros y ponles un nombre. Adicionalmente,
@@ -66,7 +66,7 @@ Eso es todo para un uso simple.
 Como "Bonus" en el fihero mobile_repair_functions.sqf la primera función llamada PTXTRN_MBSP_msveh_Provisional_Set_Loadout se encarga de establecer qué municiones y suministros de tropa lleva el vehículo de suministros. Podéis cambiarla y añadir/quitar los suministros deseados.
 
 
-CÓMO FUNCIONA:
+Cómo funciona:
 --------------
 En la misión de prueba tenéis dos cammiones Zamak con toldo que son vehículos de suministros del lado blufor. También tenéis un mástil con la bandera de la OTAN que os puede teletransportar a las cercanías de cualquiera de estos dos vehículos.
 
@@ -83,8 +83,12 @@ Para que la acción tenga lugar, amboas vahículos (el de suministros y el repar
 Un vehículo de suministros de un bando puede reparar y recargar vehículos de cualquier bando. Sin embargo, en el mapa, sólo salen señalados los vehículos de suministros del lado propio.
 
 
-CHANGELOG:
+Chengelog:
 ----------
 -	V1.0:
 	*	First public version.
 
+
+Créditos y agradecimentos:
+--------------------------
+Este script está basado en el excelente =BTC= Revive de =BTC= Giallustio.
