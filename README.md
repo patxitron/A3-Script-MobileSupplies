@@ -65,5 +65,4 @@ Changelog:
 
 Credits &amp; Thanks:
 ---------------------
-This script is based on the superb =BTC= Revive by =BTC= Giallustio.
-based on ArmA II NameDisplay script by Melbo.
+This script is based on the superb =BTC= Revive by =BTC= Giallustio. Player tags based on ArmA II NameDisplay script by Melbo.
