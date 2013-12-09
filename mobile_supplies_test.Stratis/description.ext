@@ -1,0 +1,19 @@
+Respawn = 3;
+RespawnDelay = 0;
+RespawnDialog = 0;
+disabledAI = true;
+saving = 0;
+
+class Header
+{
+	gameType = Coop ; //game type
+	minPlayers = 1; //min # of players the mission supports
+	maxPlayers = 14; //max # of players the mission supports
+};
+
+author="[UTUM]Patxitron";
+OnLoadName = "Test for mobile supplies script";
+OnLoadMission = "Co 1-14, Test for mobile supplies script";
+onLoadIntroTime=false;
+onLoadMissionTime=false;
+joinUnassigned = 0;
