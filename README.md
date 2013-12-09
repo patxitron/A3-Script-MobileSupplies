@@ -1,5 +1,5 @@
-A3-Script-MobileSupplies
-========================
+MobileSupplies by [UTUM]Patxitron
+=================================
 
 My mobile supplies ArmA III script.
 
@@ -51,7 +51,8 @@ Any supplies vehicle can repeiy an resuply any vehicle of any side. But in the m
 
 Changelog:
 ----------
-*	2013-10-19 Version 0.1: First public release.
+-	2013-10-19 Version 0.1:
+	*	First public release.
 
 
 Credits &amp; Thanks:
