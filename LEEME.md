@@ -41,8 +41,8 @@ ajustar:
 *	PTXTRN_MBSP_msveh_east Lista de vehículos de suministros del lado opfor.
 *	PTXTRN_MBSP_msveh_guer Lista de vehículos de suministros del lado guerrilla.
 *	PTXTRN_MBSP_msveh_civ Lista de vehículos de suministros del lado civil.
-*	PTXTRN_show_player_tag: Cuando encaras a un jugador que está a menos distancia que la especificada aquí, aparecerá en pantalla un "tag" indicando el nombre del jugador y su arma principal. Pon la distancia a 0 para deshabilitar el tag.
-* PTXTRN_show_player_marker: Los jugadores de tu propio grupo que estén a menos distancia de la indicada, tendrán un marcador con su nombre en el mapa. Pon esta distancia a 0 para desactivar las marcas en el mapa.
+*	PTXTRN_show_player_tag: Distancia por debajo de la cual se muestra un tag con el nombre y arma del jugador de tu equipo al que apuntas. Poner a 0 para desactivar los tag.
+*	PTXTRN_show_player_marker: Distancia por debajo de la cual se muestra un marcador en el mapa con el nombre y posición de los jugadores de tu misma unidad. Poner a 0 para desactivar el marcador.
 
 Es decir, si por ejemplo pones dos camiones en el lado blufor y otros dos en el opfor y quieres que sean vehículos de suministros, en el editor de misiones, ponles un nombre significativo, por ejemplo Suministros_blufor_0, Suministros_blufor_1, Suministros_opfor_0 y Suministros_opfor_1 y en el mobile_repair_init.sqf pon las variables como siguen:
 
@@ -78,13 +78,19 @@ Para que la acción tenga lugar, amboas vahículos (el de suministros y el repar
 
 Un vehículo de suministros de un bando puede reparar y recargar vehículos de cualquier bando. Sin embargo, en el mapa, sólo salen señalados los vehículos de suministros del lado propio.
 
+Si activas el teletransporte, puedes teletransportar vehículos completos: Súbete como conductor y llévalo hasta el punto de teletransporte. Si activas la opción de teletransopote, llevará al destino el vehículo que conduces con sus ocupantes.
 
 Changelog:
 ----------
 -	2013-10-19 Version 0.1:
 	*	Primera versión pública.
-
+-	2013-12-09 Version 0.2:
+	*	Reescrito gran parte del código.
+	*	Se añade la posibilidad de mostrar en pantalla un tag del jugador al que se apunta, basado en el script NameDisplay para ArmA II por Melbo.
+	*	Se añade la posibilidad de mostrar marcadores con los nombres de los jugadores de la unidad en el mapa.
+	*	Ahora el teletransporte funciona también con vehículos completos si lo activa el conductor.
 
 Créditos y agradecimentos:
 --------------------------
 Este script está basado en el excelente =BTC= Revive de =BTC= Giallustio.
+También contiene código basado en el script NameDisplay para ArmA II por Melbo.

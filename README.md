@@ -35,6 +35,8 @@ In the mission editor place one or more vehicles you want to be supplies vehicle
 *	PTXTRN_MBSP_msveh_east: List of supplies vehicles for the east side.
 *	PTXTRN_MBSP_msveh_guer: List of supplies vehicles for the guerrilla side.
 *	PTXTRN_MBSP_msveh_civ: List of supplies vehicles for the civilian side.
+*	PTXTRN_show_player_tag: Maximum distance to show a tag with the name and weapon of the targeted player of your own side. Set it to 0 to disable tags.
+*	PTXTRN_show_player_marker: Maximum distance to put a marker in map with your own unit players position and name. Set it to 0 to disable.
 
 The first function of the mobile_repair_functions.sqf file, named PTXTRN_MBSP_msveh_Provisional_Set_Loadout, sets the loadout of the supplies vehicles and you can change the magazines/weapons/items they carry.
 
@@ -48,13 +50,20 @@ Both vehicles (the supplies and the target) must be stopped (less that 3km/h) an
 
 Any supplies vehicle can repeiy an resuply any vehicle of any side. But in the map, only the supplies vehicles of your own side are displayed.
 
+If you enable the teleport, Full vehicles can be teleported: get in as driver, drive it to the teleport point and activate the option.
 
 Changelog:
 ----------
 -	2013-10-19 Version 0.1:
 	*	First public release.
+-	2013-12-09 Version 0.2:
+	*	Rewrote most of the functions.
+	*	Added targeted friendly players tag, based on ArmA II NameDisplay script by Melbo.
+	*	Added optional markers in map for own unit players.
+	*	Now full vehicles can be teleported to the mobile supplies vehicle.
 
 
 Credits &amp; Thanks:
 ---------------------
 This script is based on the superb =BTC= Revive by =BTC= Giallustio.
+based on ArmA II NameDisplay script by Melbo.
