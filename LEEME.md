@@ -1,11 +1,7 @@
-Mobile repair, refuel and rearm script para ArmA III, por [UTUM]Patxitron
-=========================================================================
+MobileSupplies por [UTUM]Patxitron
+==================================
+Mi script ArmA III de vehículo de suministros.
 
-En primer lugar agradecer a =BTC= Giallustio su excelente
-script =BTC= Revive en el que este está basado.
-
-Esta versión también incluye códifo del script namedisplay para Arma 2
-de Marker y Melbo.
 
 Para qué sirve:
 ---------------
@@ -83,10 +79,10 @@ Para que la acción tenga lugar, amboas vahículos (el de suministros y el repar
 Un vehículo de suministros de un bando puede reparar y recargar vehículos de cualquier bando. Sin embargo, en el mapa, sólo salen señalados los vehículos de suministros del lado propio.
 
 
-Chengelog:
+Changelog:
 ----------
--	V1.0:
-	*	First public version.
+-	2013-10-19 Version 0.1:
+	*	Primera versión pública.
 
 
 Créditos y agradecimentos:
