@@ -13,7 +13,21 @@ class Header
 
 author="[UTUM]Patxitron";
 OnLoadName = "Test for mobile supplies script";
-OnLoadMission = "Co 1-14, Test for mobile supplies script";
+OnLoadMission = "Co 1-3, Test for mobile supplies script";
 onLoadIntroTime=false;
 onLoadMissionTime=false;
 joinUnassigned = 0;
+
+#include "taw_vd\dialog.hpp"
+#include "VAS\menu.hpp"
+
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+	#include "taw_vd\CfgFunctions.hpp"
+	#include "ptxtrn\cfgfunctions.hpp"
+};
+class Params
+{
+	#include "ptxtrn\params.hpp"
+};
